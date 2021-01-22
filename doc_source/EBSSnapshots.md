@@ -42,7 +42,7 @@ In the diagram below, Volume 1 is shown at three points in time\. A snapshot is 
 ![\[Snapshots capturing an initial volume state and two subsequent states after data has been changed.\]](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/images/snapshot_1a.png)
 
 **Note**  
-If you copy a snapshot and encrypt it to a new CMK, a complete \(non\-incremental\) copy is always created, resulting in additional delay and storage costs\.
+If you copy a snapshot and encrypt it with a new CMK, a complete \(non\-incremental\) copy is always created, resulting in additional delay and storage costs\.
 
 For more information about how data is managed when you delete a snapshot, see [Delete an Amazon EBS snapshot](ebs-deleting-snapshot.md)\.
 
